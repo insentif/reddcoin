@@ -29,7 +29,9 @@ We had two bad blockchain splits. First at block 5448005 and the second one at b
    ```sh
    invalidateblock 809a59a737c3479ac17ad0fd426193596cc02cfb82cd1c87fa05ef94f8f8587a
    ```
-   Wait for several minutes for Executing...
+   Wait for several minutes for Executing...  and also connectiong to peers again to synchonize blocks  
+   ![image](https://github.com/user-attachments/assets/21ff8709-1cf3-432f-b0fc-efe3aae96d92)
+
 4. To verify if you're on the second bad fork run in the Console of the Core Wallet:
    ```sh
    getblockhash 5519068
