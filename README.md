@@ -19,11 +19,11 @@ We had two bad blockchain splits. First at block 5448005 and the second one at b
    getblockhash 5448005
    ```
    If the output of this command is  
-   `99e1ba495f4da89c2a0c8a0296cb1df69d5a76488c06517a5aee5c0000c496da`
+   `99e1ba495f4da89c2a0c8a0296cb1df69d5a76488c06517a5aee5c0000c496da`  
    then you're on the right chain.  
    If the output is  
    `809a59a737c3479ac17ad0fd426193596cc02cfb82cd1c87fa05ef94f8f8587a`  
-   then you're on the wrong chain.
+   then you're on the wrong chain.  
    ![image](https://github.com/user-attachments/assets/df0f2e3e-0d2d-41f9-aec9-6ea9a5cca779)  
 2. To switch from the first fork to the correct chain you must run the command:  
    ```sh
@@ -35,7 +35,7 @@ We had two bad blockchain splits. First at block 5448005 and the second one at b
    getblockhash 5519068
    ```
    If the output of this command is  
-   `1d6ebb2d73dccc03b7b9b013c3b08ec8a83919ed4480edbad6e0604be53f5b40`
+   `1d6ebb2d73dccc03b7b9b013c3b08ec8a83919ed4480edbad6e0604be53f5b40`  
    then you're on the right chain.  
    If the output is  
    `420d82c48eea24cd9a06b24cc012bb89abdcab95bdbc29ef02d9fd55ef41f570`  
